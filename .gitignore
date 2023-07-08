@@ -5,3 +5,6 @@
 .budfiles
 npm-debug.log
 yarn-error.log
+
+# IntelliJ project files
+.idea
