@@ -23,7 +23,7 @@ export default async (app) => {
    *
    * @see {@link https://bud.js.org/docs/bud.setPublicPath}
    */
-  app.setPublicPath('/app/themes/sage/public/');
+  app.setPublicPath('/wp-glamore/wp-content/themes/sage/public/');
 
   /**
    * Development server settings
@@ -33,8 +33,8 @@ export default async (app) => {
    * @see {@link https://bud.js.org/docs/bud.watch}
    */
   app
-    .setUrl('http://localhost:3000')
-    .setProxyUrl('http://example.test')
+    .setUrl('http://localhost:3000/wp-glamore')
+    .setProxyUrl('http://localhost/wp-glamore')
     .watch(['resources/views', 'app']);
 
   /**
