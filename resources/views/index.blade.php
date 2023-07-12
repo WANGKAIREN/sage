@@ -1,3 +1,5 @@
+{{-- Laravel 框架中的模板引擎 Blade 的语法 --}}
+
 @extends('layouts.app')
 
 @section('content')
