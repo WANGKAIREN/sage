@@ -11,6 +11,7 @@
     <?php do_action('get_header'); ?>
 
     <div id="app">
+      <!-- sage.view = index 视图模板文件，sage.data = array[0] 传递给该视图的数据 -->
       <?php echo view(app('sage.view'), app('sage.data'))->render(); ?>
     </div>
 
