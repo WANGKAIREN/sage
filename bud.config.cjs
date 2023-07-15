@@ -6,7 +6,25 @@
  *
  * @param {import('@roots/bud').Bud} app
  */
-export default async (app) => {
+
+// 1. 旧
+//    使用 ES 模块语法导出的，并不是常规的 CommonJS 导出。这可能导致 Bud 在处理文件时出现问题。
+//    为了解决这个问题，你可以将 bud.config.js 文件改为使用 CommonJS 导出。
+//
+// 2. js 改名为 cjs
+//    由于你的项目中的 package.json 文件中包含了 "type": "module"，这导致了文件被当作 ES 模块处理，而不是常规的 CommonJS 模块。
+//    为了解决这个问题，你可以将 bud.config.js 文件的扩展名改为 .cjs
+//
+// 3. 以上两种方式同样试用与 tailwind.config.cjs
+//
+// export default async (app) => {
+
+// 新 start
+const colors = require('tailwindcss/colors');
+const daisyUI = require('daisyui');
+module.exports = async (app) => {
+// 新 end
+
   /**
    * Application assets & entrypoints
    *

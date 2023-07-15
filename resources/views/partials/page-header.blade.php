@@ -2,6 +2,8 @@
   <h1>{!! $title !!}</h1>
 </div>
 
+<button class="btn">Button</button>
+
 <div class="page-header max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
   <div class="md:flex">
     <div class="md:shrink-0">

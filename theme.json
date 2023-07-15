@@ -1246,6 +1246,446 @@
           "name": "Rose 950",
           "slug": "rose-950",
           "color": "#4c0519"
+        },
+        {
+          "name": "Primary",
+          "slug": "primary",
+          "color": "hsl(var(--p) / <alpha-value>)"
+        },
+        {
+          "name": "Primary-focus",
+          "slug": "primary-focus",
+          "color": "hsl(var(--pf) / <alpha-value>)"
+        },
+        {
+          "name": "Primary-content",
+          "slug": "primary-content",
+          "color": "hsl(var(--pc) / <alpha-value>)"
+        },
+        {
+          "name": "Secondary",
+          "slug": "secondary",
+          "color": "hsl(var(--s) / <alpha-value>)"
+        },
+        {
+          "name": "Secondary-focus",
+          "slug": "secondary-focus",
+          "color": "hsl(var(--sf) / <alpha-value>)"
+        },
+        {
+          "name": "Secondary-content",
+          "slug": "secondary-content",
+          "color": "hsl(var(--sc) / <alpha-value>)"
+        },
+        {
+          "name": "Accent",
+          "slug": "accent",
+          "color": "hsl(var(--a) / <alpha-value>)"
+        },
+        {
+          "name": "Accent-focus",
+          "slug": "accent-focus",
+          "color": "hsl(var(--af) / <alpha-value>)"
+        },
+        {
+          "name": "Accent-content",
+          "slug": "accent-content",
+          "color": "hsl(var(--ac) / <alpha-value>)"
+        },
+        {
+          "name": "Neutral-focus",
+          "slug": "neutral-focus",
+          "color": "hsl(var(--nf) / <alpha-value>)"
+        },
+        {
+          "name": "Neutral-content",
+          "slug": "neutral-content",
+          "color": "hsl(var(--nc) / <alpha-value>)"
+        },
+        {
+          "name": "Base-100",
+          "slug": "base-100",
+          "color": "hsl(var(--b1) / <alpha-value>)"
+        },
+        {
+          "name": "Base-200",
+          "slug": "base-200",
+          "color": "hsl(var(--b2) / <alpha-value>)"
+        },
+        {
+          "name": "Base-300",
+          "slug": "base-300",
+          "color": "hsl(var(--b3) / <alpha-value>)"
+        },
+        {
+          "name": "Base-content",
+          "slug": "base-content",
+          "color": "hsl(var(--bc) / <alpha-value>)"
+        },
+        {
+          "name": "Info",
+          "slug": "info",
+          "color": "hsl(var(--in) / <alpha-value>)"
+        },
+        {
+          "name": "Info-content",
+          "slug": "info-content",
+          "color": "hsl(var(--inc) / <alpha-value>)"
+        },
+        {
+          "name": "Success",
+          "slug": "success",
+          "color": "hsl(var(--su) / <alpha-value>)"
+        },
+        {
+          "name": "Success-content",
+          "slug": "success-content",
+          "color": "hsl(var(--suc) / <alpha-value>)"
+        },
+        {
+          "name": "Warning",
+          "slug": "warning",
+          "color": "hsl(var(--wa) / <alpha-value>)"
+        },
+        {
+          "name": "Warning-content",
+          "slug": "warning-content",
+          "color": "hsl(var(--wac) / <alpha-value>)"
+        },
+        {
+          "name": "Error",
+          "slug": "error",
+          "color": "hsl(var(--er) / <alpha-value>)"
+        },
+        {
+          "name": "Error-content",
+          "slug": "error-content",
+          "color": "hsl(var(--erc) / <alpha-value>)"
+        },
+        {
+          "name": "Neutral-50",
+          "slug": "neutral-50",
+          "color": "#fafafa"
+        },
+        {
+          "name": "Neutral-100",
+          "slug": "neutral-100",
+          "color": "#f5f5f5"
+        },
+        {
+          "name": "Neutral-200",
+          "slug": "neutral-200",
+          "color": "#e5e5e5"
+        },
+        {
+          "name": "Neutral-300",
+          "slug": "neutral-300",
+          "color": "#d4d4d4"
+        },
+        {
+          "name": "Neutral-400",
+          "slug": "neutral-400",
+          "color": "#a3a3a3"
+        },
+        {
+          "name": "Neutral-500",
+          "slug": "neutral-500",
+          "color": "#737373"
+        },
+        {
+          "name": "Neutral-600",
+          "slug": "neutral-600",
+          "color": "#525252"
+        },
+        {
+          "name": "Neutral-700",
+          "slug": "neutral-700",
+          "color": "#404040"
+        },
+        {
+          "name": "Neutral-800",
+          "slug": "neutral-800",
+          "color": "#262626"
+        },
+        {
+          "name": "Neutral-900",
+          "slug": "neutral-900",
+          "color": "#171717"
+        },
+        {
+          "name": "LightBlue 50",
+          "slug": "lightblue-50",
+          "color": "#f0f9ff"
+        },
+        {
+          "name": "LightBlue 100",
+          "slug": "lightblue-100",
+          "color": "#e0f2fe"
+        },
+        {
+          "name": "LightBlue 200",
+          "slug": "lightblue-200",
+          "color": "#bae6fd"
+        },
+        {
+          "name": "LightBlue 300",
+          "slug": "lightblue-300",
+          "color": "#7dd3fc"
+        },
+        {
+          "name": "LightBlue 400",
+          "slug": "lightblue-400",
+          "color": "#38bdf8"
+        },
+        {
+          "name": "LightBlue 500",
+          "slug": "lightblue-500",
+          "color": "#0ea5e9"
+        },
+        {
+          "name": "LightBlue 600",
+          "slug": "lightblue-600",
+          "color": "#0284c7"
+        },
+        {
+          "name": "LightBlue 700",
+          "slug": "lightblue-700",
+          "color": "#0369a1"
+        },
+        {
+          "name": "LightBlue 800",
+          "slug": "lightblue-800",
+          "color": "#075985"
+        },
+        {
+          "name": "LightBlue 900",
+          "slug": "lightblue-900",
+          "color": "#0c4a6e"
+        },
+        {
+          "name": "LightBlue 950",
+          "slug": "lightblue-950",
+          "color": "#082f49"
+        },
+        {
+          "name": "WarmGray 50",
+          "slug": "warmgray-50",
+          "color": "#fafaf9"
+        },
+        {
+          "name": "WarmGray 100",
+          "slug": "warmgray-100",
+          "color": "#f5f5f4"
+        },
+        {
+          "name": "WarmGray 200",
+          "slug": "warmgray-200",
+          "color": "#e7e5e4"
+        },
+        {
+          "name": "WarmGray 300",
+          "slug": "warmgray-300",
+          "color": "#d6d3d1"
+        },
+        {
+          "name": "WarmGray 400",
+          "slug": "warmgray-400",
+          "color": "#a8a29e"
+        },
+        {
+          "name": "WarmGray 500",
+          "slug": "warmgray-500",
+          "color": "#78716c"
+        },
+        {
+          "name": "WarmGray 600",
+          "slug": "warmgray-600",
+          "color": "#57534e"
+        },
+        {
+          "name": "WarmGray 700",
+          "slug": "warmgray-700",
+          "color": "#44403c"
+        },
+        {
+          "name": "WarmGray 800",
+          "slug": "warmgray-800",
+          "color": "#292524"
+        },
+        {
+          "name": "WarmGray 900",
+          "slug": "warmgray-900",
+          "color": "#1c1917"
+        },
+        {
+          "name": "WarmGray 950",
+          "slug": "warmgray-950",
+          "color": "#0c0a09"
+        },
+        {
+          "name": "TrueGray 50",
+          "slug": "truegray-50",
+          "color": "#fafafa"
+        },
+        {
+          "name": "TrueGray 100",
+          "slug": "truegray-100",
+          "color": "#f5f5f5"
+        },
+        {
+          "name": "TrueGray 200",
+          "slug": "truegray-200",
+          "color": "#e5e5e5"
+        },
+        {
+          "name": "TrueGray 300",
+          "slug": "truegray-300",
+          "color": "#d4d4d4"
+        },
+        {
+          "name": "TrueGray 400",
+          "slug": "truegray-400",
+          "color": "#a3a3a3"
+        },
+        {
+          "name": "TrueGray 500",
+          "slug": "truegray-500",
+          "color": "#737373"
+        },
+        {
+          "name": "TrueGray 600",
+          "slug": "truegray-600",
+          "color": "#525252"
+        },
+        {
+          "name": "TrueGray 700",
+          "slug": "truegray-700",
+          "color": "#404040"
+        },
+        {
+          "name": "TrueGray 800",
+          "slug": "truegray-800",
+          "color": "#262626"
+        },
+        {
+          "name": "TrueGray 900",
+          "slug": "truegray-900",
+          "color": "#171717"
+        },
+        {
+          "name": "TrueGray 950",
+          "slug": "truegray-950",
+          "color": "#0a0a0a"
+        },
+        {
+          "name": "CoolGray 50",
+          "slug": "coolgray-50",
+          "color": "#f9fafb"
+        },
+        {
+          "name": "CoolGray 100",
+          "slug": "coolgray-100",
+          "color": "#f3f4f6"
+        },
+        {
+          "name": "CoolGray 200",
+          "slug": "coolgray-200",
+          "color": "#e5e7eb"
+        },
+        {
+          "name": "CoolGray 300",
+          "slug": "coolgray-300",
+          "color": "#d1d5db"
+        },
+        {
+          "name": "CoolGray 400",
+          "slug": "coolgray-400",
+          "color": "#9ca3af"
+        },
+        {
+          "name": "CoolGray 500",
+          "slug": "coolgray-500",
+          "color": "#6b7280"
+        },
+        {
+          "name": "CoolGray 600",
+          "slug": "coolgray-600",
+          "color": "#4b5563"
+        },
+        {
+          "name": "CoolGray 700",
+          "slug": "coolgray-700",
+          "color": "#374151"
+        },
+        {
+          "name": "CoolGray 800",
+          "slug": "coolgray-800",
+          "color": "#1f2937"
+        },
+        {
+          "name": "CoolGray 900",
+          "slug": "coolgray-900",
+          "color": "#111827"
+        },
+        {
+          "name": "CoolGray 950",
+          "slug": "coolgray-950",
+          "color": "#030712"
+        },
+        {
+          "name": "BlueGray 50",
+          "slug": "bluegray-50",
+          "color": "#f8fafc"
+        },
+        {
+          "name": "BlueGray 100",
+          "slug": "bluegray-100",
+          "color": "#f1f5f9"
+        },
+        {
+          "name": "BlueGray 200",
+          "slug": "bluegray-200",
+          "color": "#e2e8f0"
+        },
+        {
+          "name": "BlueGray 300",
+          "slug": "bluegray-300",
+          "color": "#cbd5e1"
+        },
+        {
+          "name": "BlueGray 400",
+          "slug": "bluegray-400",
+          "color": "#94a3b8"
+        },
+        {
+          "name": "BlueGray 500",
+          "slug": "bluegray-500",
+          "color": "#64748b"
+        },
+        {
+          "name": "BlueGray 600",
+          "slug": "bluegray-600",
+          "color": "#475569"
+        },
+        {
+          "name": "BlueGray 700",
+          "slug": "bluegray-700",
+          "color": "#334155"
+        },
+        {
+          "name": "BlueGray 800",
+          "slug": "bluegray-800",
+          "color": "#1e293b"
+        },
+        {
+          "name": "BlueGray 900",
+          "slug": "bluegray-900",
+          "color": "#0f172a"
+        },
+        {
+          "name": "BlueGray 950",
+          "slug": "bluegray-950",
+          "color": "#020617"
         }
       ]
     },

@@ -25,6 +25,7 @@
       "@roots/sage"
     ]
   },
-  "include": ["bud.config.js", "resources"],
+  "include": [
+    "bud.config.cjs", "resources"],
   "exclude": ["node_modules", "public"]
 }
