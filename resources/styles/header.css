@@ -13,8 +13,17 @@
   display: block;
 }
 
-.menu-menu-1-container {
-  display: flex;
-  flex: 1 1 0%;
-  align-items: center;
+/* 导航中间菜单的文字颜色 */
+.navbar:hover .navbar-center ul li {
+  color: black;
+}
+
+/* 导航右侧svg的颜色 */
+.navbar:hover svg {
+  color: black;
+}
+
+/* 导航右侧svg徽章的颜色 */
+.navbar:hover .badge {
+  color: black;
 }
