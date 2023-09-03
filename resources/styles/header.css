@@ -1,0 +1,20 @@
+/* 默认情况下隐藏黑色标志 */
+.black-logo {
+  display: none;
+}
+
+/* 当父元素悬停时隐藏白色标志 */
+.navbar:hover .white-logo {
+  display: none;
+}
+
+/* 当父元素悬停时显示黑色标志 */
+.navbar:hover .black-logo {
+  display: block;
+}
+
+.menu-menu-1-container {
+  display: flex;
+  flex: 1 1 0%;
+  align-items: center;
+}
