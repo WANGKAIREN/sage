@@ -8,3 +8,7 @@ yarn-error.log
 
 # IntelliJ project files
 .idea
+
+composer.lock
+package-lock.json
+yarn.lock
