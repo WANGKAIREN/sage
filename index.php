@@ -11,6 +11,9 @@
     <?php do_action('get_header'); ?>
 
     <div id="app">
+      <!-- single.php用于单个文章页面，page.php用于单个页面 -->
+      <?php echo '当前模版名称：' . view(app('sage.view'), app('sage.data'))->getName(); ?>
+
       <!-- sage.view = index 视图模板文件，sage.data = array[0] 传递给该视图的数据 -->
       <?php echo view(app('sage.view'), app('sage.data'))->render(); ?>
     </div>
