@@ -90,6 +90,18 @@ class Custom_Walker_Nav_Menu extends Walker_Nav_Menu
         //     $output .= '</div>';
         // }
     }
-
-
 }
+
+/**
+ * 添加自定义 CSS 类到子菜单 ul 元素
+ *
+ * 钩子触发地方 cmd + shift + f 搜索「// Default class.」
+ * {@link wp-includes/class-walker-nav-menu.php start_lvl()}
+ */
+function custom_submenu_classes($classes, $args, $depth) {
+    // 在这里添加你希望的 CSS 类，例如 'p-2'
+    $classes[] = 'p-2 text-black';
+
+    return $classes;
+}
+add_filter('nav_menu_submenu_css_class', 'custom_submenu_classes', 10, 3);

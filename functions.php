@@ -64,5 +64,7 @@ collect(['setup', 'filters'])
         }
     });
 
+// 以下为自定义代码
+
 // 包含自定义 Walker 类文件 & 应用自定义 Walker 类到导航菜单
 require_once get_template_directory() . '/app/includes/custom-walker.php';

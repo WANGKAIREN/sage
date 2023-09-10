@@ -1,5 +1,4 @@
 <header class="banner">
-
   <div class="navbar bg-red-500 hover:bg-green-500 transition-colors duration-300">
     <div class="navbar-start hidden lg:flex">
       <a class="btn btn-ghost normal-case text-xl">
@@ -23,23 +22,6 @@
     </div>
     <div class="navbar-center hidden lg:flex"> <!-- 使用 flex 和 items-center 来水平对齐内容 -->
       @if (has_nav_menu('primary_navigation'))
-
-        @php
-          /**
-           * 添加自定义 CSS 类到子菜单 ul 元素
-           *
-           * 钩子触发地方 cmd + shift + f 搜索「// Default class.」
-           * {@link wp-includes/class-walker-nav-menu.php start_lvl()}
-           */
-          function custom_submenu_classes($classes, $args, $depth) {
-              // 在这里添加你希望的 CSS 类，例如 'p-2'
-              $classes[] = 'p-2 text-black';
-
-              return $classes;
-          }
-          add_filter('nav_menu_submenu_css_class', 'custom_submenu_classes', 10, 3);
-        @endphp
-
         <nav class="nav-primary" aria-label="{{ wp_get_nav_menu_name('primary_navigation') }}">
           {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'nav menu menu-horizontal px-1 text-white', 'echo' => false]) !!}
         </nav>
