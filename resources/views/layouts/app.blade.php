@@ -17,9 +17,9 @@
 
 {{-- 测试 generoi/sage-woocommerce end --}}
 
-{{--   <main id="main" class="main"> --}}
-{{--     @yield('content') --}}
-{{--   </main> --}}
+   <main id="main" class="main">
+     @yield('content')
+   </main>
 
 {{--   @hasSection('sidebar') --}}
 {{--     <aside class="sidebar"> --}}

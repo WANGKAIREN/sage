@@ -75,9 +75,9 @@
     </div>
   </div>
 
-  {{-- <a class="brand" href="{{ home_url('/') }}"> --}}
-  {{--   {!! $siteName !!} --}}
-  {{-- </a> --}}
+   <a class="brand" href="{{ home_url('/') }}">
+     {!! $siteName !!}
+   </a>
 
 </header>
 
