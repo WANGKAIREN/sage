@@ -68,3 +68,6 @@ collect(['setup', 'filters'])
 
 // 包含自定义 Walker 类文件 & 应用自定义 Walker 类到导航菜单
 require_once get_template_directory() . '/app/includes/custom-walker.php';
+
+// 完全禁用缩略图生成
+add_filter('intermediate_image_sizes', '__return_empty_array');
