@@ -43,6 +43,7 @@ module.exports = async (app) => {
    */
   // PhpStorm 启动使用，因为 Mac 80 端口，权限问题，需要配合 wp-config.php 的 WordPress 绑定多个域名
   // app.setPublicPath('/wp-content/themes/sage/public/');
+  // mamp 和 生产时 使用
   app.setPublicPath('/wp-glamore/wp-content/themes/sage/public/');
 
   /**
